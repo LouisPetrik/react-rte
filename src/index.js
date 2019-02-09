@@ -1,14 +1,15 @@
 import React from 'react';
 
-class PageHeader extends React.Component {
+class RTE extends React.Component {
   render() {
     return (
       <React.Fragment>
           <header>
               <h1>Hallo, mit Lizenz!</h1>
           </header>
+          dies ist der RTE
       </React.Fragment>
     );
   }
 }
-export default PageHeader;
+export default RTE;
