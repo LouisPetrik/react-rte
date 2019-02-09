@@ -7,7 +7,7 @@ class RTE extends React.Component {
           <header>
               <h1>Hallo, mit Lizenz!</h1>
           </header>
-          dies ist der RTE
+          dies wird ein RTE
       </React.Fragment>
     );
   }
