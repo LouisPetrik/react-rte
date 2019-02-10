@@ -1,14 +1,13 @@
 {
-  "name": "react-page-header",
-  "version": "1.0.3",
-  "description": "A simple ReactJS component for creating a page-header",
+  "name": "react-texter",
+  "version": "1.0.1",
+  "description": "A simple rich-text editor made for reactjs",
   "license": "MIT",
   "main": "build/index.js",
   "peerDependencies": {
     "react": "^16.6.3"
   },
   "dependencies": {
-    "babel-preset-react": "^6.24.1",
     "react": "^16.6.3",
     "webpack": "^2.6.1"
   },
@@ -19,7 +18,7 @@
   },
   "author": {
     "name": "Louis Petrik",
-    "email": "louispetrik88@gmail.com"
+    "email": "louispetrik@aol.com"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",

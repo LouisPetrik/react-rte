@@ -98,16 +98,16 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var RTE = function (_React$Component) {
-  _inherits(RTE, _React$Component);
+var PageHeader = function (_React$Component) {
+  _inherits(PageHeader, _React$Component);
 
-  function RTE() {
-    _classCallCheck(this, RTE);
+  function PageHeader() {
+    _classCallCheck(this, PageHeader);
 
-    return _possibleConstructorReturn(this, (RTE.__proto__ || Object.getPrototypeOf(RTE)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (PageHeader.__proto__ || Object.getPrototypeOf(PageHeader)).apply(this, arguments));
   }
 
-  _createClass(RTE, [{
+  _createClass(PageHeader, [{
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
@@ -121,16 +121,15 @@ var RTE = function (_React$Component) {
             null,
             'Hallo, mit Lizenz!'
           )
-        ),
-        'dies wird ein RTE'
+        )
       );
     }
   }]);
 
-  return RTE;
+  return PageHeader;
 }(_react2.default.Component);
 
-exports.default = RTE;
+exports.default = PageHeader;
 
 /***/ })
 /******/ ]);
