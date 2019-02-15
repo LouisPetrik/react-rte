@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "react": "^16.6.3",
-    "webpack": "^2.6.1"
+    "webpack": "^2.6.1",
+    "react-contenteditable": "^3.2.6"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

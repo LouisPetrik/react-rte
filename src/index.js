@@ -1,14 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import Texter from "./Texter";
 
-class PageHeader extends React.Component {
+class App extends Component {
   render() {
-    return (
-      <React.Fragment>
-          <header>
-              <h1>Hallo, mit Lizenz!</h1>
-          </header>
-      </React.Fragment>
-    );
+    return <Texter/>;
   }
 }
-export default PageHeader;
+
+ReactDOM.render(<App />, document.getElementById('root'));
